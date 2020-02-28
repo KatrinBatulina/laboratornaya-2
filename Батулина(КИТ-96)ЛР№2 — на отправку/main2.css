@@ -1,0 +1,75 @@
+html{
+font-family: Arial,Candara, sans-serif;    
+font-size: 18px;  
+}
+body{ 
+margin: 0;
+padding: 0;   /* Убираю отступы */          
+}
+h1,h2,h3{
+font-style: italic;   
+}
+header{
+width: 100%;   
+height: 100px;                        /* Шапка сайта */  
+background-color: #87CEEB;  
+padding-top: 1%;
+}
+
+span:first-child{
+color: red;
+font-size: 35px;       /* Изменение цвета и размера буквы "М" в надписи "Моє хобі" */
+}
+a:link{ 
+color: blue;      /* Цвет непосещенных ссылок */
+}
+a:visited{ 
+color: red;      /* Цвет посещенных ссылок */
+}
+a:hover{ 
+color: green;    /* Цвет ссылок при наведении на них курсора */
+}
+
+footer {
+background-image: url(pinkk.jpg);
+position: fixed; 
+bottom: 0; 
+width: 100%; 
+height: 100px;               
+}
+
+#center{ 
+margin-top: 3%;         /* Отступ для красного, 3 и 4 блока */
+margin-left: 23%; 
+}    
+
+#block2{
+background-color:pink;
+padding-right: 15px; 
+width: 15%;
+height:600px;
+float: left;
+font-size: 19px;
+}
+
+#redBlock{
+border: 3px dotted pink;
+width: 77%;                    /* Параметры для блока с надписью "Автобиография" */
+text-align: center;
+margin-bottom: 10px;
+}
+
+#block3 img{
+width: 20.5%;
+float: left;
+margin-right: 2%;
+}
+
+#block4{
+float: left;
+width: 55%;
+height: auto;
+padding: 10px;
+border: 2px solid #87CEEB;
+box-sizing: border-box;  
+}
